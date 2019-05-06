@@ -1,15 +1,16 @@
 glmgen
 ======
 
-Generalized lasso implementations. To install the
-R library directly from github, run the following from R:
+Forked from `glmgen/glmgen`, the repo was modified to include only the R package. This allows us to simplify installation to the following command:
 
 ```{r}
  library(devtools)
- install_github("statsmaths/glmgen", subdir="R_pkg/glmgen")
+ install_github("asadharis/glmgen")
 ```
+
+This was done to allow for easy installation of the `glmgen` as a dependency of our other R package `GSAM`.
+
  
-See the C documentation published at [c docs](http://statsmaths.github.io/glmgen/html/files.html),
-and the R documentation published at [R docs](http://statsmaths.github.io/glmgen/glmgen-manual.pdf).
+See the R documentation published at [R docs](http://statsmaths.github.io/glmgen/glmgen-manual.pdf).
 
 
